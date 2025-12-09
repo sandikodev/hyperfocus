@@ -1,0 +1,18 @@
+{
+  "name": "hyperfocus",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A 10-Year Gift to the Web Technology Community - based on SnapCode Study Case",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.0",
+    "astro": "^5.6.1",
+    "sharp": "^0.34.2"
+  }
+}
