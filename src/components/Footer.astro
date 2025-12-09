@@ -1,0 +1,118 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Footer.astro';
+---
+
+<Default {...Astro.props}><slot /></Default>
+
+<footer class="custom-footer">
+	<div class="footer-content">
+		<div class="footer-section">
+			<h3>Community</h3>
+			<ul>
+				<li><a href="https://github.com/sandikodev/onboard/discussions" target="_blank">💬 Discussions</a></li>
+				<li><a href="https://github.com/sandikodev/onboard/issues" target="_blank">🐛 Report Issues</a></li>
+				<li><a href="https://github.com/sandikodev/onboard" target="_blank">⭐ Star on GitHub</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-section">
+			<h3>Support</h3>
+			<ul>
+				<li><a href="https://github.com/sponsors/sandikodev" target="_blank">💖 Sponsor</a></li>
+				<li><a href="https://ko-fi.com/sandikodev" target="_blank">☕ Buy Me a Coffee</a></li>
+			</ul>
+		</div>
+		
+		<div class="footer-section">
+			<h3>More</h3>
+			<ul>
+				<li><a href="https://github.com/sandikodev/snapcode" target="_blank">📦 SnapCode Project</a></li>
+				<li><a href="https://twitter.com/sandikodev" target="_blank">🐦 Follow on Twitter</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="footer-bottom">
+		<p>
+			<strong>ngode-ngide kode ngadi-ngadi</strong> 🚀<br>
+			<em>Not for profit, but for passion. Not for certificates, but for knowledge.</em>
+		</p>
+		<p class="license">
+			Licensed under <a href="https://github.com/sandikodev/onboard/blob/main/LICENSE" target="_blank">MIT</a> • 
+			Made with ❤️ by <a href="https://github.com/sandikodev" target="_blank">@sandikodev</a>
+		</p>
+	</div>
+</footer>
+
+<style>
+	.custom-footer {
+		margin-top: 4rem;
+		padding: 2rem 0;
+		border-top: 1px solid var(--sl-color-gray-2);
+	}
+	
+	.footer-content {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 2rem;
+		margin-bottom: 2rem;
+	}
+	
+	.footer-section h3 {
+		font-size: 1rem;
+		font-weight: 600;
+		margin-bottom: 0.75rem;
+		color: var(--sl-color-accent);
+	}
+	
+	.footer-section ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.footer-section li {
+		margin-bottom: 0.5rem;
+	}
+	
+	.footer-section a {
+		color: var(--sl-color-gray-4);
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+	
+	.footer-section a:hover {
+		color: var(--sl-color-accent);
+	}
+	
+	.footer-bottom {
+		text-align: center;
+		padding-top: 2rem;
+		border-top: 1px solid var(--sl-color-gray-2);
+	}
+	
+	.footer-bottom p {
+		margin: 0.5rem 0;
+		color: var(--sl-color-gray-4);
+		font-size: 0.9rem;
+	}
+	
+	.footer-bottom strong {
+		color: var(--sl-color-accent);
+	}
+	
+	.license {
+		font-size: 0.85rem;
+		opacity: 0.8;
+	}
+	
+	.license a {
+		color: var(--sl-color-accent);
+		text-decoration: none;
+	}
+	
+	.license a:hover {
+		text-decoration: underline;
+	}
+</style>

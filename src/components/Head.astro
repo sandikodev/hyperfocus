@@ -1,0 +1,33 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+import Default from '@astrojs/starlight/components/Head.astro';
+
+const { entry } = Astro.props;
+const ogImage = new URL('/og-image.png', Astro.site);
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const title = entry?.data?.title || 'HyperFocus';
+const description = entry?.data?.description || 'A 10-Year Gift to the Web Technology Community (based on SnapCode Study Case)';
+---
+
+<Default {...Astro.props}><slot /></Default>
+
+<!-- Enhanced SEO -->
+<link rel="canonical" href={canonicalURL} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content="HyperFocus" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@sandikodev" />
+<meta name="twitter:creator" content="@sandikodev" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+
+<!-- Additional Meta -->
+<meta name="author" content="Sandiko (@sandikodev)" />
+<meta name="keywords" content="web development, devops, deployment, docker, nginx, security, monitoring" />
