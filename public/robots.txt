@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sandikodev.github.io/onboard/sitemap-index.xml
