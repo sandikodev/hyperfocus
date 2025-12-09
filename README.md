@@ -5,13 +5,13 @@
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub Stars](https://img.shields.io/github/stars/sandikodev/onboard?style=social)](https://github.com/sandikodev/onboard)
+[![GitHub Stars](https://img.shields.io/github/stars/sandikodev/hyperfocus?style=social)](https://github.com/sandikodev/hyperfocus)
 
 **A 10-Year Gift to the Web Technology Community (2016-2026)**
 
 *Based on SnapCode Study Case*
 
-[Live Site](https://sandikodev.github.io/onboard) • [Documentation](https://sandikodev.github.io/onboard) • [Contributing](CONTRIBUTING.md) • [Discussions](https://github.com/sandikodev/onboard/discussions)
+[Live Site](https://sandikodev.github.io/hyperfocus) • [Documentation](https://sandikodev.github.io/hyperfocus) • [Contributing](CONTRIBUTING.md) • [Discussions](https://github.com/sandikodev/hyperfocus/discussions)
 
 </div>
 
@@ -69,8 +69,8 @@ Progressive learning from beginner to advanced, covering security, monitoring, C
 
 ```bash
 # Clone repository
-git clone git@github.com:sandikodev/onboard.git
-cd onboard
+git clone git@github.com:sandikodev/hyperfocus.git
+cd hyperfocus
 
 # Install dependencies
 pnpm install
@@ -178,7 +178,7 @@ See [LICENSE](LICENSE) for details.
 
 ## 🔗 Links
 
-- **Live Site:** [sandikodev.github.io/onboard](https://sandikodev.github.io/onboard)
+- **Live Site:** [sandikodev.github.io/hyperfocus](https://sandikodev.github.io/hyperfocus)
 - **Main Project:** [SnapCode](https://github.com/sandikodev/snapcode)
 - **Author:** [@sandikodev](https://github.com/sandikodev)
 - **Twitter:** [@sandikodev](https://twitter.com/sandikodev)
@@ -187,8 +187,8 @@ See [LICENSE](LICENSE) for details.
 
 If this project helps you, consider:
 
-- ⭐ [Star on GitHub](https://github.com/sandikodev/onboard)
-- 💬 [Join Discussions](https://github.com/sandikodev/onboard/discussions)
+- ⭐ [Star on GitHub](https://github.com/sandikodev/hyperfocus)
+- 💬 [Join Discussions](https://github.com/sandikodev/hyperfocus/discussions)
 - 💖 [Sponsor](https://github.com/sponsors/sandikodev)
 - ☕ [Buy Me a Coffee](https://ko-fi.com/sandikodev)
 

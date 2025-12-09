@@ -44,7 +44,7 @@ All three methods are covered in detail in their respective sections.
 ✅ Want containerization, need easy scaling, learning DevOps, modern deployment
 
 <Aside type="caution">
-**Production deployments** require proper security hardening. See the [Security](/onboard/security/ssl-tls/) section.
+**Production deployments** require proper security hardening. See the [Security](/hyperfocus/security/ssl-tls/) section.
 </Aside>
 
 ## Learning Path

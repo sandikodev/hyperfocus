@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
 	site: 'https://sandikodev.github.io',
-	base: '/onboard',
+	base: '/hyperfocus',
 	integrations: [
 		starlight({
 			title: 'HyperFocus',
@@ -37,11 +37,11 @@ export default defineConfig({
 				},
 			],
 			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/sandikodev/onboard' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/sandikodev/hyperfocus' },
 				{ icon: 'x.com', label: 'Twitter', href: 'https://twitter.com/sandikodev' },
 			],
 			editLink: {
-				baseUrl: 'https://github.com/sandikodev/onboard/edit/main/',
+				baseUrl: 'https://github.com/sandikodev/hyperfocus/edit/main/',
 			},
 			lastUpdated: true,
 			pagination: true,
